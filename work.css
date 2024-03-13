@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #222222;
+
+}
+.bg-img{
+    background-image: url(/images/bg-img.jpg);
+    width: 100%;
+    padding-bottom: 92px;
+    /* border: 3px dashed purple; */
+    box-sizing: border-box;
+    box-shadow: inset 20px 20px 80px 30px white, 50px 50px 30px 30px white;
+}
+header{
+    max-width: 1440px;
+    padding: 20px 100px;
+}
+.nav-bar{
+    /* border: 1px solid black; */
+    display: flex;
+    /* height: 90px; */
+    /* justify-content: space-between; */
+    max-width: 1240px;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+.head-middle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    margin-left: 102px;
+    margin-right: 520px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #222222;
+    font-family: Cabin;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+#red{
+    color: #DE4132;
+     
+}
+.red{
+    font-family: 'Cabin', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    left: 8px;
+    bottom: 1px;
+}
+.nav-bar button{
+    width: 156px;
+    height: 61px;
+    /* padding: 12px 44px 12px 44px; */
+    border-radius: 8px;
+    gap: 6px;
+    background-color: #DE4132;
+    border: none;
+    color: white;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+.nav-bar img{
+    /* border: 1px dashed red;                                                                                                                             */
+    Width:143px;
+    Height:50px;
+}  
+.part1-text{
+    /* border: 2px dashed rgb(68, 0, 255); */
+    width: 524px;
+    /* height: 488px; */
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+    margin-left: 100px;
+    /* margin-right: 794px; */
+    /* margin-bottom: 92px; */
+    margin-top: 45px;
+}
+.part1-text h1{
+    font-family: 'Cabin', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #313B4C;
+
+}
+#similar{
+    font-family: 'Cabin', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #313B4C;
+}
+.part1-text p{
+    font-family: 'Cabin' , sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222222;
+    
+}
+.small-pictures{
+    height: 53px;
+    width: 235px;
+    /* border: 1px solid blue; */
+    position: relative;
+}
+#p1{
+    background-color: #FBE36A;
+    border: 2px solid #FFB531;
+    border-radius: 1498.5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#p2{
+    background-color: #8E99D7;
+    border: 2px solid #FFB531;
+    border-radius: 1498.5px;
+    position: absolute;
+    left: 30px;
+    top: 0;
+}
+#p3{
+    background-color: #FBE36A;
+    border: 2px solid #FFB531;
+    border-radius: 1498.5px;
+    position: absolute;
+    left: 55px;
+    top: 0;
+}
+#p4{
+    position: absolute;
+    left: 80px;
+}
+#p5{
+    position: absolute;
+    left: 140px;
+}
+.part1-button{
+    display: flex;
+    gap: 25px;  
+}
+#btn2{
+    width: 156px;
+    height: 61px;
+    /* padding: 12px 44px 12px 44px; */
+    border-radius: 8px;
+    gap: 6px;
+    background-color: #DE4132;
+    border: none;
+    color: white;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn3{
+    width: 156px;
+    height: 61px;
+    /* padding: 12px 44px 12px 44px; */
+    border-radius: 8px;
+    gap: 6px;
+    background-color: white;
+    border: none;
+    color: #DE4132;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.part1-puretext{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 524px;
+    
+}
+#halo{
+    display: flex;
+    flex-direction: column;
+}
+.part1-logo{
+    /* border: 1px dashed red; */
+    margin-left: 604px;
+    margin-top: 38px;
+    /* margin-right: 100px; */
+}
+.part1-content{
+    display: flex;
+}
+.part2{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.part2-content{
+    /* border: 2px solid red; */
+    margin: 54px 191px;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    background-color: #FEF9F9;
+
+}
+.our-partners{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comp-logos{
+    /* border: 1px dashed blue; */
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.part3-width{
+    /* border: 3px solid red; */
+    max-width: 1440px;
+}
+.part3{
+    max-width: 1240px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+
+}
+.part3-head{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid blue;/ */
+}
+.part3-head p{
+    text-align: center;
+    width: 935px;
+    font-family: 'Cabin',sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: rgba(34, 34, 34, 0.8);
+    
+}
+.part3-head h1{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.part3-content{
+    /* border: 1px dashed red; */
+    display: flex;
+    justify-content: space-between;
+    gap: 26px;
+    padding: 5px 5px 0 5px;
+    max-width: 1240px;
+}
+.poster{
+    /* border: 1px dashed red; */
+    width: 377px;
+    /* height: 135px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.poster a{
+    margin-bottom: 12px;
+    color: rgba(222, 65, 50, 1);
+    font-family: Cabin;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    gap: 10px;
+}
+.poster-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#same2same{
+    font-family: 'Cabin',sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: rgba(34, 34, 34, 0.8);
+}
+#sws{
+    font-family: 'Cabin',sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;  
+    color: rgba(49, 59, 76, 1);  
+}
+.part4{
+    background-color: rgba(254, 249, 249, 1);
+    /* border: 3px solid red; */
+}
+.part4-content{
+    margin: 84px 305px;
+    width: 830px;
+    height: 400px;
+    background-image: url(/images/Rectangle\ 4373.png);
+    /* border: 2px dashed red; */
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.part4-content h1{
+    font-family: 'Cabin',sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.part4-content p{
+    font-family: Cabin;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 604px;
+}
+.part4-content  button{
+    width: Hug (186px);
+    height: Hug (50px);
+    padding: 14px 44px 14px 44px;
+    border-radius: 8px;
+    /* gap: 10px; */
+    font-family: 'Cabin',sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:rgba(222, 65, 50, 1);
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
